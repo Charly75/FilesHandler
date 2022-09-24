@@ -54,7 +54,7 @@ def clean_name(folder_name):
     folder_name = folder_name.strip()
 
     return folder_name.title()
-    # return folder_name.capitelize()
+
 
 
 def sort_data(my_list):
