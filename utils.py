@@ -13,7 +13,7 @@ def human_readable_size_go(size, decimal_places=2):
 
 
 def human_readable_size(size, decimal_places=2):
-    """Transforme octets """
+    """Transforme octets triable"""
     for unit in ['o', 'Ko', 'Mo', 'Go', 'To', 'Po']:
         if size < 1024.0 or unit == 'Po':
             break
